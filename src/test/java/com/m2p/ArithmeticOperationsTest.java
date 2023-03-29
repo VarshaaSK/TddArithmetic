@@ -19,4 +19,24 @@ public class ArithmeticOperationsTest {
         //Assert
         assertEquals(expectedValue , actualValue);
     }
+
+    @Test
+    void toReturnSixOnSubtractingFourFromTen(){
+
+        int expectedValue = 6;
+        int actualValue = arithmeticOperations.subtract(10,4);
+
+        assertEquals(expectedValue , actualValue);
+    }
+
+    @Test
+    void toReturnMinusSixOnSubtractingTenFromFour(){
+
+        int expectedValue = -6;
+        int actualValue = arithmeticOperations.subtract(4,10);
+
+        assertEquals(expectedValue , actualValue);
+    }
+
+
 }

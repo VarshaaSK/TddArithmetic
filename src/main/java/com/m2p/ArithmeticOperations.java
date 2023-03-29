@@ -4,4 +4,8 @@ public class ArithmeticOperations {
     public int add(int firstInputNumber, int secondInputNumber) {
         return firstInputNumber + secondInputNumber;
     }
+
+    public int subtract(int firstInputNumber, int secondInputNumber) {
+        return firstInputNumber - secondInputNumber;
+    }
 }
