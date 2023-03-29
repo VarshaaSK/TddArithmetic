@@ -14,4 +14,11 @@ public class ArithmeticOperations {
     }
 
 
+    public int divide(int firstInputNumber, int secondInputNumber) {
+        if(secondInputNumber == 0){
+            throw new ArithmeticException();
+        }
+        return firstInputNumber/secondInputNumber;
+    }
+
 }
